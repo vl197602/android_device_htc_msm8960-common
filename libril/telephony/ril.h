@@ -112,9 +112,8 @@ typedef enum {
     PREF_NET_TYPE_GSM_ONLY                 = 1, /* GSM only */
     PREF_NET_TYPE_WCDMA                    = 2, /* WCDMA  */
     PREF_NET_TYPE_GSM_WCDMA_AUTO           = 3, /* GSM/WCDMA (auto mode, according to PRL) */
-    PREF_NET_TYPE_LTE_CDMA_EVDO            = 4, /* LTE, CDMA and EvDo */
-    PREF_NET_TYPE_LTE_GSM_WCDMA            = 5, /* LTE, GSM/WCDMA */
-    PREF_NET_TYPE_LTE_ONLY                 = 6  /* LTE only */
+    PREF_NET_TYPE_LTE_GSM_WCDMA            = 4, /* LTE, GSM/WCDMA */
+    PREF_NET_TYPE_LTE_ONLY                 = 5  /* LTE only */
 } RIL_PreferredNetworkType;
 
 /* Source for cdma subscription */
