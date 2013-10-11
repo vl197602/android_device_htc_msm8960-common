@@ -101,6 +101,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     hdmid
 
+PRODUCT_PACKAGES += \
+	hci_qcomm_init
+
 # QCOM rngd
 PRODUCT_PACKAGES += \
     qrngd
